@@ -78,7 +78,6 @@ print 'Codigo de Status: '+str(statusCode(str(responde.status_code)))
 print '                                                              '
 content = ''
 content = raw_input("Deseja visualizar o conteudo da requisicao ?  *Minusculo (s)/(n) ? ") 
-print(content)
 if content == 's':
   print 'Conteudo da Pagina '+str(responde.content)
 if content == 'n':  
