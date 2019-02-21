@@ -53,20 +53,19 @@ print 'Retornando o codigo de status ...'
 # retornando Status Codes basicos, 
 def statusCode(codigo):
     if  codigo == '100':
-     return 'Continue'        
+      return 'Continue'        
     if codigo == '200':    
       return 'OK'  
     if  codigo == '201':
-     return 'Created - Criado'        
-    if  codigo == '400':
-        return 'Bad Rquest - Requisicao ruim'
-    if  codigo == '403':
-        return 'Forbidden - Proibido'
-    if  codigo == '404':
-        return 'Page not found - pagina nao encontrada'        
+      return 'Created - Criado'        
     if  codigo == '300':
-     return 'multiplas escolhas' 
-
+      return 'multiplas escolhas' 
+    if  codigo == '400':
+      return 'Bad Rquest - Requisicao ruim'
+    if  codigo == '403':
+      return 'Forbidden - Proibido'
+    if  codigo == '404':
+      return 'Page not found - pagina nao encontrada'        
 # verificando se a URL e valida
 def verificarUrl(url):
     if re.search("http:\\", url, re.IGNORECASE) and re.search("https:\\", url, re.IGNORECASE):  
