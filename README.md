@@ -43,6 +43,9 @@ def statusCode(codigo):
 
 ```
 
+##A ideia principal é de criar um app no estilo Wget, fazer requisições HTTP
+##Use e abuse deste App.
+
 
 
 #make with Love @boscobecker
