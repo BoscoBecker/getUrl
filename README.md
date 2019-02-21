@@ -7,7 +7,7 @@
 * Biblioteca os
 * Biblioteca re
 
-![Alt Text](https://github.com/{boscobecker}/{getUrl}/raw/{master}/path/to/image.gif)
+![Alt Text](https://github.com/{boscobecker}/{getUrl}/raw/{master}/exemplo.jpg)
 
 
 
