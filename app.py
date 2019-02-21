@@ -2,8 +2,13 @@ import requests
 import re
 import time
 import os
+
+
+
+
 clear = lambda: os.system('clear')
 clear()
+
 # iniciando programa
 print '                                                              '
 print '..............................................................'
@@ -72,7 +77,6 @@ def verificarUrl(url):
         return true    
     else:
         return false
-
 print 'Codigo de Status: '+str(statusCode(str(responde.status_code)))
 print '                                                              '
 content = ''
