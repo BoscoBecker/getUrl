@@ -1,52 +1,50 @@
-# Projeto desenvolvido em Python para fazer requisições HTTP 1.0/1.1 usando bilbioteca Requests
+# Project developed in Python to make HTTP 1.0 / 1.1 requests using Requests library
 
-#Requisitos
+#Requirements
 * Python 2.7
-* Biblioteca Requsts
-* Biblioteca Time
-* Biblioteca os
-* Biblioteca re
+* Requsts Library
+* Time Library
+* Library
+* Library re
 
-![Alt Text](https://github.com/BoscoBecker/getUrl/blob/master/exemplo.jpg)
-
-
-
-#funcionamento
-
-1 Basta executar os comandos  "python app.py"
-
-2 informar a URL
-
-3 escolher se deseja visualizar o conteudo HTML ou não 
+![Alt Text](/getUrl/blob/master/exemplo.jpg)
 
 
-#Partes do código de verificação de status do request
+
+#operation
+
+1 Just run the "python app.py" commands
+
+2 inform the URL
+
+3 choose whether to view the HTML content or not
 
 
-```python
-# retornando Status Codes basicos, 
-def statusCode(codigo):
-    if  codigo == '100':
-     return 'Continue'        
-    if codigo == '200':    
-      return 'OK'  
-    if  codigo == '201':
-     return 'Created - Criado'        
-    if  codigo == '400':
-        return 'Bad Rquest - Requisicao ruim'
-    if  codigo == '403':
-        return 'Forbidden - Proibido'
-    if  codigo == '404':
-        return 'Page not found - pagina nao encontrada'        
-    if  codigo == '300':
-     return 'multiplas escolhas' 
-
-```
-
-##A ideia principal é de criar um app no estilo Wget, fazer requisições HTTP
-##Use e abuse deste App.
+#Parts of the request status verification code
 
 
+`` python
+# returning basic Status Codes,
+def statusCode (code):
+    if code == '100':
+     return 'Continue'
+    if code == '200':
+      return 'OK'
+    if code == '201':
+     return 'Created - Created'
+    if code == '400':
+        return 'Bad Rquest - Bad Request'
+    if code == '403':
+        return 'Forbidden - Forbidden'
+    if code == '404':
+        return 'Page not found - page not found'
+    if code == '300':
+     return 'multiple choices'
+
+``
+
+## The main idea is to create a Wget-style app, make HTTP requests
+## Use and abuse this App.
 
 #make with Love @boscobecker
 
