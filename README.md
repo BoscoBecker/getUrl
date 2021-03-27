@@ -7,7 +7,7 @@
 * Library
 * Library re
 
-![Alt Text](/getUrl/blob/master/exemplo.jpg)
+![Alt Text](getUrl/blob/master/exemplo.jpg)
 
 
 
